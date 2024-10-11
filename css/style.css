@@ -1,0 +1,87 @@
+
+@import url(curso_propiet.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--color_fondo);
+  
+}
+
+.header__container{
+  background-color:var(--color_fondo2);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 8px;
+  
+
+}
+.header__logo-search{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.header__logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  margin: 15px;
+}
+.header__search{
+  display: flex;
+  gap: 8px;
+  background-color:var(--color__gris);
+  padding: 2px;
+  border-radius: 10px ;
+  width: 100%;
+  color: var(--color__negro);
+}
+.search__icono{
+  
+  font-size: 1.4rem;
+  padding: 5px;
+ 
+}
+.search__input{
+  
+  color: var(--color__negro);
+  margin: 5px;
+  position: relative;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+}
+ /* segundo contenedor iconos  */
+
+.header__container__icon{
+  color:#91918F;
+  padding: 30px;
+  flex-direction: row;
+
+}
+.navegador__icons{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  padding: 20px;
+}
+.icon{
+  font-size: 25px;
+  color: #91918F;
+}
+.icon__text{
+  font-size: 1rem;
+  
+}
+
