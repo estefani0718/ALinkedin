@@ -1,0 +1,17 @@
+@import url(content.css);
+
+
+
+.sidebar__lateral-derecho{
+  grid-area: sidebar; 
+ 
+}
+.sidebar__perfil__box{
+ background-color: var(--color_fondo);
+  
+
+}
+.sidebar__perfil__imagen{
+  background-color: var(--color__fondo2);
+  
+}
